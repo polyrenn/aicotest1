@@ -5,18 +5,9 @@ handlers:
   - url: /favicon\.ico
     static_files: favicon.ico
     upload: favicon\.ico
-    
+
   - url: /images
-    static_dir: images
-    
-  - url: /css
-    static_dir: css
-    
-  - url: /js
-    static_dir: js
-    
-  - url: /fonts
-    static_dir: fonts
+    static_dir: aicotest
 
   - url: /.*
     secure: always
