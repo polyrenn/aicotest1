@@ -8,6 +8,7 @@ handlers:
 
   - url: /images
     static_dir: aicotest
+    upload: images/.*\.(gif|png|jpg)$  
 
   - url: /.*
     secure: always
