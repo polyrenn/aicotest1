@@ -7,9 +7,6 @@
  */
 # [START gae_simple_front_controller]
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
-    case '/':
-        require 'index.php';
-        break;
     case '/portal.php':
         require 'portal.php';
         break;
