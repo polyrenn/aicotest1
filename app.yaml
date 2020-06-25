@@ -10,7 +10,7 @@ handlers:
     static_dir: public
     
      - url: /images
-    static_dir: images
+    static_dir: public
 
   - url: /.*
     secure: always
