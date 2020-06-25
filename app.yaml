@@ -7,8 +7,8 @@ handlers:
     upload: favicon\.ico
 
   - url: /(.*\.(gif|png|jpg|htm|html|css|js))$
-    static_files: aicotest/\1
-    upload: aicotest/.*\.(gif|png|jpg|htm|html|css|js)$
+    static_files: images/\1
+    upload: images/.*\.(gif|png|jpg|htm|html|css|js)$
 
   - url: /.*
     secure: always
