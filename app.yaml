@@ -5,6 +5,9 @@ handlers:
   - url: /favicon\.ico
     static_files: favicon.ico
     upload: favicon\.ico
+    
+  - url: /images
+    static_files: images
 
   - url: /(.*\.(gif|png|jpg|htm|html|css|js))$
     static_files: images/\1
