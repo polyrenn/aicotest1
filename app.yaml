@@ -7,10 +7,10 @@ handlers:
     upload: favicon\.ico
 
   - url: /static
-    static_dir: public
+    static_dir: aicotest
     
      - url: /images
-    static_dir: public
+    static_dir: aicotest
 
   - url: /.*
     secure: always
