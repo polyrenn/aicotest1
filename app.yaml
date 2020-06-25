@@ -6,9 +6,9 @@ handlers:
     static_files: favicon.ico
     upload: favicon\.ico
 
-  - url: /images
-    static_dir: aicotest
-    upload: images/.*\.(gif|png|jpg)$  
+  - url: /(.*\.(gif|png|jpg|htm|html|css|js))$
+    static_files: aicotest/\1
+    upload: aicotest/.*\.(gif|png|jpg|htm|html|css|js)$
 
   - url: /.*
     secure: always
