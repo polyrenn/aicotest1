@@ -8,6 +8,9 @@ handlers:
 
   - url: /static
     static_dir: public
+    
+     - url: /images
+    static_dir: images
 
   - url: /.*
     secure: always
