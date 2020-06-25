@@ -7,6 +7,12 @@ handlers:
   
 - url: /css
   static_dir: css  
+  
+- url: /images
+  static_dir: img
+  
+- url: /img
+  static_dir: img  
 
 
 # Serve images as static resources.
