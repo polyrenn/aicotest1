@@ -4,6 +4,9 @@ handlers:
 # Serve a directory as a static resource.
 - url: /js
   static_dir: js
+  
+- url: /css
+  static_dir: css  
 
 
 # Serve images as static resources.
