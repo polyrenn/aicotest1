@@ -7,8 +7,8 @@ handlers:
     upload: favicon\.ico
     
   - url: /(.+)
-  static_files: /\1
-  upload: /(.*)
+  static_files: images/\1
+  upload: images/(.*)
 
 
   - url: /(.*\.(gif|png|jpg|htm|html|css|js))$
