@@ -6,6 +6,7 @@
  * for more examples.
  */
 # [START gae_simple_front_controller]
+/*
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/portal.php':
         require 'portal.php';
@@ -15,7 +16,7 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
         exit('Not Found');
 }
 # [END gae_simple_front_controller]
-
+*/
 ?>
 
 <!doctype html>
