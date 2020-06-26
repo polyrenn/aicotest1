@@ -24,4 +24,3 @@ handlers:
 - url: .*
   script: auto
   
-entrypoint: /frontcontroller.php
