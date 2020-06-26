@@ -5,8 +5,8 @@ switch ($_SERVER['PATH_INFO']) {
         require 'home.php';
         break;
 
-    case '/sitemap.xml':
-        require 'gen_sitemap.php';
+    case '/portal.php':
+        require 'portal.php';
         break;
 
     case '/app/myPHP':
