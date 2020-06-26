@@ -5,7 +5,7 @@ switch ($_SERVER['PATH_INFO']) {
         require 'home.php';
         break;
 
-    case '/portal.php':
+    case '/portal':
         require 'portal.php';
         break;
 
