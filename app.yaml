@@ -24,4 +24,4 @@ handlers:
 - url: .*
   script: auto
   
-entrypoint: frontcontroller.php
+entrypoint: /frontcontroller.php
